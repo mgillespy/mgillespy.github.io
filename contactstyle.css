@@ -1,0 +1,63 @@
+ul{
+    list-style: none;
+}
+.nlink{
+    font-size: 20px;
+    color: white;
+    margin: 0 10px 0 10px;
+}
+.navbar{
+    background: black;
+    height: 50px;
+    align-items: baseline;
+}
+.navcenter{
+    align-content: center;
+}
+.navtext{
+    font-size: 20px;
+    color: white;
+    margin: auto;
+    display: inline-block;
+}
+.logo{
+    height: 35px;
+}
+.wrapper{
+    display: inline-block;
+    overflow: hidden;
+}
+.background{
+    position: fixed;
+    top: 0em;
+    right: 30%;
+    bottom: 0;
+    left: 30%;
+    margin: 0 -600px;
+    background-size: cover;
+    z-index: -2;
+    overflow: scroll;
+}
+
+#headline{
+    width: 50%;
+    margin: 100px auto 50px auto;
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    vertical-align: center;
+}
+h3, h5{
+    text-align: center;
+    color: black;
+}
+p{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+}
+#gform{
+    align-content: center;
+    text-align: center;
+}
