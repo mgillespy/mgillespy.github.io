@@ -1,33 +1,41 @@
-ul{
+ul {
     list-style: none;
 }
-.nlink{
+
+.nlink {
     font-size: 20px;
     color: white;
     margin: 0 10px 0 10px;
 }
-.navbar{
-    background: black;
+
+.navbar {
+    background: #49110c;
     height: 50px;
-    align-items: baseline;
+    vertical-align: top;
 }
-.navcenter{
+
+.navcenter {
     align-content: center;
 }
-.navtext{
-    font-size: 20px;
+
+.navtext {
+    font-size: 1.75em;
+    font-family: 'Dosis', sans-serif;
     color: white;
-    margin: auto;
+    margin: 5px auto 0 auto;
     display: inline-block;
 }
-.logo{
+
+.logo {
     height: 35px;
 }
-.wrapper{
+
+.wrapper {
     display: inline-block;
-    overflow: scroll;
+    overflow: hidden;
 }
-.background{
+
+.background {
     position: fixed;
     top: 0em;
     right: 30%;
@@ -38,14 +46,28 @@ ul{
     z-index: -2;
     overflow: scroll;
 }
-.name{
-    width: 600px;
+
+.name {
+    width: 40%;
     height: 450px;
     margin: 100px auto 50px auto;
     background: white;
     border-radius: 10px;
     padding: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Dosis', sans-serif;
     vertical-align: center;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rounddotlogo {
+    height: 1.5em;
+    margin: 0 .5em 0 .5em;
+}
+
+h1 {
+    font-size: 4em !important;
+    margin: 0;
 }

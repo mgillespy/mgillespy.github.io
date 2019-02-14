@@ -1,34 +1,41 @@
-ul{
+ul {
     list-style: none;
 }
-.nlink{
+
+.nlink {
     font-size: 20px;
     color: white;
     margin: 0 10px 0 10px;
 }
-.navbar{
-    background: black;
+
+.navbar {
+    background: #49110c;
     height: 50px;
     align-items: baseline;
 }
-.navcenter{
+
+.navcenter {
     align-content: center;
 }
-.navtext{
-    font-size: 20px;
+
+.navtext {
+    font-size: 1.75em;
+    font-family: 'Dosis', sans-serif;
     color: white;
-    margin: auto;
+    margin: 5px auto 0 auto;
     display: inline-block;
 }
-.logo{
+
+.logo {
     height: 35px;
 }
-.wrapper{
+
+.wrapper {
     display: inline-block;
     overflow: hidden;
-
 }
-.background{
+
+.background {
     position: fixed;
     top: 0em;
     right: 30%;
@@ -40,17 +47,26 @@ ul{
     overflow: scroll;
 }
 
-#headline{
-    width: 50%;
+#headline {
+    width: 40%;
     margin: 100px auto 50px auto;
     background: white;
     border-radius: 10px;
     padding: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Dosis', sans-serif;
     vertical-align: center;
 }
-p{
+
+h3 {
     text-align: center;
-    color: black;
-    font-size: 14px;
+}
+
+h5 {
+    text-align: center;
+    font-weight: 900 !important;
+}
+
+p {
+    text-align: left;
+    font-size: 1.2em;
 }

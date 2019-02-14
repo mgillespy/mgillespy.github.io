@@ -1,34 +1,42 @@
-ul{
+ul {
     list-style: none;
 }
-.nlink{
+
+.nlink {
     font-size: 20px;
     color: white;
     margin: 0 10px 0 10px;
 }
-.navbar{
-    background: black;
+
+.navbar {
+    background: #49110c;
     height: 50px;
     align-items: baseline;
 }
-.navcenter{
+
+.navcenter {
     align-content: center;
 }
-.navtext{
-    font-size: 20px;
+
+.navtext {
+    font-size: 1.75em;
+    font-family: 'Dosis', sans-serif;
     color: white;
-    margin: auto;
+    margin: 5px auto 0 auto;
     display: inline-block;
 }
-.logo{
+
+.logo {
     height: 35px;
 }
-.wrapper{
+
+.wrapper {
     display: inline-block;
     overflow: hidden;
 
 }
-.background{
+
+.background {
     position: fixed;
     top: 0em;
     right: 30%;
@@ -40,38 +48,34 @@ ul{
     overflow: scroll;
 }
 
-#content{
-    width: 50%;
+#content {
+    width: 40%;
     margin: 100px auto 50px auto;
     background: white;
     border-radius: 10px;
     padding: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Dosis', sans-serif;
     vertical-align: center;
 }
-#top{
-    margin:  25px 0px 10px 0px;
-    text-align: center;
-}
-h3{
+
+h3 {
     text-align: center;
     vertical-align: center;
     margin: 0;
 }
-h5{
+
+.icon {
+    height: 55px;
+    padding: 0;
+}
+
+.table {
+    width: 90% !important;
+    margin: 0 auto 0 auto;
+}
+
+.table td {
+    padding: .25em !important;
     text-align: center;
-    vertical-align: center;
     margin: 0;
-    font-style: italic;
 }
-.skilllist {
-    text-align: center;
-    vertical-align: center;
-    margin: 10px;
-}
-.skill{
-    vertical-align: center;
-    margin: 0px;
-}
-
-
