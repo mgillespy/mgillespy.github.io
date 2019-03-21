@@ -6,7 +6,7 @@
   <title>Projects</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="projects.css">
+  <link rel="stylesheet" type="text/css" href="index.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
@@ -14,38 +14,47 @@
 </head>
 
 <body>
-  <div class="wrapper">
-    <div class="background">
-      <nav class="navbar navbar-dark navcenter">
-        <div class="navtext">
-          <ul class="list-inline">
-            <a href="/" class="list-inline-item"><img class="img logo" src="images/portfolioarrowlogo.png"></a>
-            <a href="about.html" class="list-inline-item nlink">About</a>
-            <a href="skills.html" class="list-inline-item nlink">Skills</a>
-            <a href="projects.html" class="list-inline-item nlink">Projects</a>
-            <a href="contact.html" class="list-inline-item nlink">Connect</a>
-            <a href="http://www.linkedin.com/in/mgillespy" class="list-inline-item navlink"><img src="./images/LIlogo.png"></a>
-            <a href="http://www.github.com/mgillespy" class="list-inline-item navlink"><img class="github" src="./images/githublogo.png"></a>
-          </ul>
-        </div>
-      </nav>
-      <img class="background" src="images/backgroundimg6.jpg">
+    <div class="base">
+      </div>
+      <div class="nav">
+      </div>
+    
       <div id="headline">
+        <div class="inside">
         <h3>Projects</h3>
+        <h5>Fun eCards</h5>
+        <p>Fun eCards takes user input and creates madlibs-style greeting cards. I used Python and Django to build the project and utilized CSS media queries to format the output for optimal results when printing or saving to PDF. I deployed the app through Heroku, so you can <a href="https://funecards.herokuapp.com">
+          make your own Fun eCards</a>! Or just take a look at the code <a href="https://github.com/mgillespy/Fun-eCards">
+            here</a>.</p>
         <h5>Questions and Answers</h5>
         <p>For this project, I used the full MEAN stack to create a site where users can ask and answer questions, add
-          optional details, and like their favorite answers. <a href="https://github.com/mgillespy/questions-app">Click
+          optional details, and vote up or down on answers. <a href="https://github.com/mgillespy/questions-app">Click
             here</a> to check out the code, or <a href="https://www.youtube.com/watch?v=763TsxDL5Sc">here</a> to watch
-          a demo.</p>
+          a demo of the site in action.</p>
+
+          <h5>Tri-City Collective site</h5>
+          <p>Tri-City Collective is group of writers, artists, and teaachers that produces creative works and affects cultural change through social justice and community service. I built a site that combined their unique vision with an intuitive user interface using WordPress themes, widgets, and custom CSS styling. I also designed a simple branding package that included logos for their website and social media presence. <a href="https://tricitycollective.com">Click
+              here</a> to take a look at the site.
       </div>
     </div>
-  </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('.base').load("base.html");
+      });
+      $(document).ready(function () {
+        $('.nav').load("nav.html");
+      });
+    </script>
+
 </body>
 
 </html>
